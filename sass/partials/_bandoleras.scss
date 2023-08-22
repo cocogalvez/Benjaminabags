@@ -1,0 +1,50 @@
+/*bandoleras*/
+
+.contenedor-grid{
+    background-color: aliceblue;
+    display: grid;
+    grid-template-areas: 
+   "h1        h1        h1"
+   "texto1  bando1  texto1-1"
+   "texto2  bando2  texto2-2"
+   "texto3  bando3  texto3-3";
+   
+   grid-template-rows: 100px 300px 300px 300px;
+   grid-template-columns: 1fr 1fr 2fr;
+   justify-content: center;
+   justify-items: center;
+   align-items: center;
+
+}
+.grid-titulo{
+    grid-area: h1;
+    background-color: brown;
+}
+.grid-texto1-1{
+    grid-area: texto1-1;
+}
+.grid-bando1{
+    grid-area: bando1;
+}
+.grid-texto1{
+    grid-area: texto1;
+}
+.grid-texto2-2{
+    grid-area: texto2-2;
+}
+.grid-bando2{
+    grid-area: bando2;
+}
+.grid-texto2{
+    grid-area: texto2;
+}
+.grid-texto3-3{
+    grid-area: texto3-3;
+}
+.grid-bando3{
+    grid-area: bando3;
+}
+.grid-texto3{
+    grid-area: texto3;
+}
+/

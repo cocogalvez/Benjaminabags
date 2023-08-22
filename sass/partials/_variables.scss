@@ -1,0 +1,30 @@
+@mixin flex ($direction,$justify,$align){
+display: flex;
+flex-direction: $direction;
+justify-content: $justify;
+align-items: $align;
+}
+
+$blanco: white;
+$negro: black;
+$font:Georgia, 'Times New Roman', Times, serif;
+
+h1{
+    color: $blanco
+}
+h2{
+    color: $negro
+}
+
+@mixin co ($var1,$var2){
+    propiedad:$var1;
+    propiedad:$var2;
+
+}
+@mixin BoxModel($margen,$relleno){
+    margin:$margen;
+    padding:$relleno;
+}
+.card{
+    @include BoxModel(10px,20px)
+}
