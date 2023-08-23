@@ -278,3 +278,18 @@ display: flex;
     margin-bottom: 0px;
     margin-right: 0px;
 }
+
+/* transiciones */
+.transicion1:hover{
+    color:#d299c2;
+    text-decoration: underline;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.transicion2:hover{
+    transform: rotate(-20deg)
+}
+.tituloSec:hover{
+    color:#d299c2;
+    text-decoration: underline;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
