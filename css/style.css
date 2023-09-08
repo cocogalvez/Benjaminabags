@@ -139,7 +139,8 @@ h1{
 /*   bandoleras   */
 
 .contenedor-grid{
-    background-color: aliceblue;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: white;
     display: grid;
     grid-template-areas: 
    "h1        h1        h1"
